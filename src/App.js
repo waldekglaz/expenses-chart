@@ -5,8 +5,10 @@ import AppBody from "./components/AppBody/AppBody";
 function App() {
   return (
     <main className="App">
-      <AppHeader />
-      <AppBody />
+      <div className="container">
+        <AppHeader />
+        <AppBody />
+      </div>
     </main>
   );
 }

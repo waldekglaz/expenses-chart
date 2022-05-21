@@ -12,11 +12,30 @@ export const StyledAppHeader = styled.header`
   & img {
     width: 60px;
   }
-  & h2 {
+  & .balance__title {
     font-size: 0.9375rem;
     margin: 4px 0;
+    font-weight: 400;
   }
-  & p {
+  & .balance__amount {
     margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  @media (min-width: 565px) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+    padding: 2rem 2.5rem;
+  }
+  & img {
+    width: 72px;
+  }
+  & .balance__title {
+    font-size: 1.125rem;
+    margin: 0.5rem 0;
+  }
+  & .balance__amount {
+    font-size: 2rem;
   }
 `;

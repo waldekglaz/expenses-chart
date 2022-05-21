@@ -6,8 +6,8 @@ const AppHeader = () => {
   return (
     <StyledAppHeader>
       <div className="balance">
-        <h2>My Balance</h2>
-        <p>$921.48</p>
+        <h2 className="balance__title">My Balance</h2>
+        <p className="balance__amount">$921.48</p>
       </div>
       <img src={logo} alt="app logo" />
     </StyledAppHeader>
